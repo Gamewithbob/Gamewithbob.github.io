@@ -1,6 +1,6 @@
 
 var translation = {
-    "a": 1,-
+    "a": 1,
     "b": 2,
     "c": 3,
     "d": "A"    
@@ -46,12 +46,3 @@ function getDecodeDictionary(dictionary) {
     console.log(decodeDictionary);
     return decodeDictionary;
 }
-
-$(function() {
-    $('input').on('change', function() {
-        var input = $(this).val();      
-        
-        $('#encoded').html(encode(input));
-        $('#decoded').html(decode(encode(input)));
-    });
-});
