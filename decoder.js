@@ -1,5 +1,4 @@
 function decode () { var message = window.prompt("Type the encoded message");
-var decoded = (decode.replace  ("q", "a") ("w", "b") ("e", "c"));
-
+var decoded =  message.replace  ("q", "a")
 }
 console.clear;
