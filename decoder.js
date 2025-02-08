@@ -17,4 +17,5 @@ for (let ii = 0; ii < alpha.length; ii++) {
     }
 }
 replace()
+document.write(res)
 
