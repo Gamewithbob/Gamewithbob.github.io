@@ -1,11 +1,25 @@
-.left{
-text-align: left;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.right{
-text-align: right;
+.toolbar {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
 }
 
-.center{
-text-align: center;
+.toolbar-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toolbar-button:hover {
+    background-color: #555;
 }
